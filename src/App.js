@@ -1,25 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+// import React from "react";
+// import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+// import Home from "./pages/home"; // Import your Home component
+// import First10 from "./pages/first10"; // Import your First10 component
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// function App() {
+//   return (
+//     <Router>
+//       <div>
+        
+//           <Routes>
+//             <Route path="/" element={<Home />} />
+//             <Route path="/first10" element={<First10 />} />
+//           </Routes>
+        
+//       </div>
+//     </Router>
+//   );
+// }
 
-export default App;
+// export default App; // Make sure to export your App component as the default
